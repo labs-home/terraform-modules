@@ -17,6 +17,7 @@ variable "dns_record_type" {
 variable "dns_record_content" {
   description = "DNS record content"
   type        = string
+  default     = null
 }
 
 variable "dns_record_ttl" {

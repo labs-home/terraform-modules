@@ -16,7 +16,7 @@
 ## Usage
 ```hcl
 module "dns" {
-  source = "https://github.com/labs-home/terraform-modules/cloudflare/cloudflare-dns-record"
+  source = "git::https://github.com/labs-home/terraform-modules.git//cloudflare/cloudflare-dns-record"
 
   cloudflare_zone    = "8djasdu9sdu80fsasu90sadu8fsa"
   dns_record_name    = "home"

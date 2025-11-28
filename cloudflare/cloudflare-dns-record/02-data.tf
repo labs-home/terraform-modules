@@ -1,3 +1,3 @@
 data "cloudflare_zone" "zone" {
-  name = var.cloudflare_zone
+  zone_id = var.cloudflare_zone
 }
