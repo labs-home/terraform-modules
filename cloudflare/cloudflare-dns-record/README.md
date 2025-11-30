@@ -9,7 +9,7 @@
 - `cloudflare_zone` - The Zone ID for the Cloudflare zone
 - `dns_record_name` - The DNS record name `e.g. home == home.<zone-name>`
 - `dns_record_type` - The DNS record type (_default: 'A'_)
-- `dns_record_content` - The IP address for the DNS record (_null if left empty_)
+- `dns_record_content` - The IP address for the DNS record
 - `dns_record_ttl` - The TTL for the DNS record (_default: 1 [Automatic]_)
 - `dns_record_proxied` - Whether the DNS record will proxy data through Cloudflare (_default: false_)
 

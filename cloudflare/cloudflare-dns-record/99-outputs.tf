@@ -1,6 +1,6 @@
 output "cloudflare_dns_record_zone_id" {
   description = "The Zone ID of the Cloudflare DNS record"
-  value       = cloudflare_dns_record.dns_record.zone_id
+  value       = data.cloudflare_zone.zone.zone_id
 }
 
 output "cloudflare_dns_record_zone_name" {
