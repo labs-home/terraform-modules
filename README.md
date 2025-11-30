@@ -5,8 +5,18 @@
 
 ### Collection of Terraform modules for Homelabs.
 
-<div style="display: flex; justify-content: space-between">
-  <img src="public/cloudflare.png" height=125 />
-  <img src="public/hetzner.jpg" height=125 />
-  <img src="public/proxmox.png" height=125 />
-</div>
+<table align="center">
+  <tbody>
+    <tr>
+      <td>
+        <img src="public/cloudflare.png" height=125 />
+      </td>
+      <td>
+        <img src="public/hetzner.jpg" height=125 />
+      </td>
+      <td>
+        <img src="public/proxmox.png" height=125 />
+      </td>
+    </tr>
+  </tbody>
+</table>
