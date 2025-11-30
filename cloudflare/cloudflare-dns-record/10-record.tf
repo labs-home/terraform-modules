@@ -1,3 +1,4 @@
+# Create a Cloudflare DNS record
 resource "cloudflare_dns_record" "dns_record" {
   zone_id = data.cloudflare_zone.zone.zone_id
   name    = "${var.dns_record_name}.${data.cloudflare_zone.zone.name}"
@@ -5,4 +6,9 @@ resource "cloudflare_dns_record" "dns_record" {
   ttl     = var.dns_record_ttl
   proxied = var.dns_record_proxied
   content = var.dns_record_content
+  lifecycle {
+    ignore_changes = [
+      content
+    ]
+  }
 }
